@@ -1,14 +1,19 @@
 <main>
-    <section>   
+    <section class="form-section">   
         <img src="/assets/svg/logo.svg" alt="Logo"/>
-        <h2></h2>
-        <button title="Click here">Click here</button>
-        <div>
-            <span>ou</span>
-        </div>
-        <button title="Submit">Submit</button>
+        <h2>{{ title }}</h2>
+        <div class="btn-wrapper">
+            <button class="btn-primary">{{ primaryBtnText }}</button>
+            <div class="divider">
+                <div></div>
+                <span>ou</span>
+                <div></div>
+            </div>
+            <button class="btn-secondary">{{ secondaryBtnText }}</button>
+        </div> 
+        
     </section>
-    <section>
+    <section class="main-section">
         <h1>Estudou, ganhou!</h1>
         <img src="/assets/svg/main-illustration.svg" alt="MainIllustration"/>
     </section>
