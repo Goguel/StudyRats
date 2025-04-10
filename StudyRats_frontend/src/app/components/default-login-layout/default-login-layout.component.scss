@@ -74,6 +74,14 @@ main {
                 cursor: pointer;
                 transition: all 0.2s ease-in-out;
 
+                &:disabled {
+                    transition: all 0.2s ease-in-out;
+                    opacity: 0.5;
+                    background-color: $gray-bg;
+                    color: $gray-bg;
+                    cursor: not-allowed;
+                }
+
                 &.btn-primary {
                     background-color: $primary-color;
                     color: white;
@@ -83,7 +91,6 @@ main {
                     border: 1px solid $primary-color;
                     color: $primary-color;
                 }
-
 
                 &.btn-primary:hover {
                     background-color: $secondary-color;

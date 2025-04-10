@@ -4,6 +4,7 @@
     secondaryBtnText="Cadastre-se agora"
     (submit)="submit()"
     (navigate)="navigate()"
+    [primaryBtnDisabled]="loginForm.invalid"
 >
     <form [formGroup]="loginForm">
         <app-primary-input
