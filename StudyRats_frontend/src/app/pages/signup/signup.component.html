@@ -1,0 +1,45 @@
+<app-default-login-layout
+    title="Crie sua conta e aproveite!"
+    primaryBtnText="Cadastre-se agora"
+    secondaryBtnText="Entre agora"
+    (submit)="submit()"
+    (navigate)="navigate()"
+    [primaryBtnDisabled]="signupForm.invalid"
+>
+    <form [formGroup]="signupForm">
+        <app-primary-input
+            formControlName="name"
+            inputName="name"
+            type="text"
+            label="Seu nome"
+            placeholder="Fulano De Tal"
+        >
+           <img src="/assets/svg/user-icon.svg"/>
+        </app-primary-input>
+        <app-primary-input
+            formControlName="email"
+            inputName="email"
+            type="email"
+            label="Email"
+            placeholder="FulanoDeTal@gmail.com"
+        >
+           <img src="/assets/svg/email-icon.svg"/>
+        </app-primary-input>
+        <app-primary-input
+            formControlName="password"
+            inputName="password"
+            type="password"
+            label="Senha"
+        >
+           <img src="/assets/svg/password-icon.svg"/>
+        </app-primary-input>
+        <app-primary-input
+        formControlName="passwordConfirm"
+        inputName="passwordConfirm"
+        type="password"
+        label="Confirme sua senha"
+    >
+       <img src="/assets/svg/password-icon.svg"/>
+    </app-primary-input>
+    </form>
+</app-default-login-layout>
