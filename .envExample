@@ -1,0 +1,6 @@
+DB_HOST=seu-host(ex.: localhost)
+DB_PORT=porta-do-banco-de-dados(ex.: 5432)
+DB_NAME=nome-do-banco-de-dados(ex.: bdTeste)
+DB_USER=usuário-do-banco-de-dados(ex.: postgres)
+DB_PASSWORD=senha-do-banco-de-dados(ex.: 1234)
+KEY_SECRET=chave-secreta(ex.: hg21gTGVSX3424)
