@@ -34,6 +34,13 @@ StudyRats é uma aplicação **fullstack** que tem como objetivo **incentivar o 
 
 ---
 
+### 📌 Status do Projeto
+🧪 Em desenvolvimento — iniciado recentemente.
+
+✅ Até o momento, foi implementada a área de login e cadastro, com autenticação baseada em JWT.
+
+---
+
 ## 🛠️ Como Rodar o Projeto
 
 ### Pré-requisitos:
