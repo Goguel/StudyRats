@@ -1,25 +1,63 @@
-# StudyRats 📚🐀
+# 🐭 StudyRats
 
-Um sistema completo, com backend robusto em Java com Spring Boot e frontend moderno em Angular, para compartilhamento de estudos de uma forma competivia e engajadora.
-
----
-
-## 🧠 Tecnologias
-
-### 🔙 Backend (Java + Spring)
-- [Spring Boot](https://spring.io/projects/spring-boot)
-- [Spring Security](https://spring.io/projects/spring-security)
-- [JWT](https://jwt.io/)
-- [JPA/Hibernate](https://spring.io/projects/spring-data-jpa)
-- [PostgreSQL](https://www.postgresql.org/)
-
-### 🔜 Frontend (Angular)
-- [Angular](https://angular.io/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [SCSS](https://sass-lang.com/)
-- HTML5
+StudyRats é uma aplicação **fullstack** que tem como objetivo **incentivar o estudo através da gamificação e da competição saudável**. A ideia é simples: quanto mais você estuda (+ horas, + questões certas, + conteúdo criado, etc.), mais pontos você ganha — e assim disputa com amigos, colegas de cursinho ou membros de uma comunidade. 🏆📚
 
 ---
 
-## 🏗️ Estrutura do Projeto
+## 🚀 Tecnologias e Conceitos Utilizados
+
+### 🔧 Backend
+- Java 17
+- Spring Boot
+- Spring Security
+- JWT (JSON Web Token)
+- Spring Data JPA
+- Maven
+- PostgreSQL
+- Swagger UI
+- Docker
+- Arquitetura MVC
+
+### 🎨 Frontend
+- Angular
+- TypeScript
+- SCSS
+- HTML
+- JavaScript
+- Nginx (via Docker)
+
+### 💡 Outros
+- Git & GitHub
+- Docker Compose
+- .env para configuração de variáveis
+- Boas práticas de organização e escalabilidade
+
+---
+
+## 🛠️ Como Rodar o Projeto
+
+### Pré-requisitos:
+- Docker
+- Docker Compose
+
+### Passos:
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/Goguel/studyrats.git
+   cd studyrats
+   
+2. Crie um arquivo .env (exemplo no projeto como .envExample):
+
+3. Rode o projeto com:
+   
+   ```bash
+   docker-compose up --build -d
+
+4. Acesse os serviços:
+- Frontend: http://localhost:8081/login
+
+- Backend (Swagger UI): http://localhost:8080/swagger-ui/index.html
+
 
