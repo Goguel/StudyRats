@@ -2,9 +2,10 @@ name: CI - Backend
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
     paths:
-      - 'backend/**'
+      - 'StudyRats_backend/**'  # Alterado para o caminho correto
 
 jobs:
   build:
@@ -21,5 +22,5 @@ jobs:
           distribution: 'temurin'
 
       - name: 🔨 Build do backend
-        working-directory: backend
+        working-directory: StudyRats_backend  # Ajustado para a pasta correta
         run: mvn clean install -DskipTests
