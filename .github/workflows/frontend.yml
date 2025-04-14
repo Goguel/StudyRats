@@ -1,0 +1,32 @@
+name: CI - Frontend
+
+on:
+  push:
+    paths:
+      - 'StudyRats_frontend/**'
+  pull_request:
+    paths:
+      - 'StudyRats_frontend/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: StudyRats_frontend
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build Angular app
+        run: npm run build -- --configuration production
