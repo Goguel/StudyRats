@@ -7,29 +7,36 @@ StudyRats é uma aplicação **fullstack** que tem como objetivo **incentivar o 
 ## 🚀 Tecnologias e Conceitos Utilizados
 
 ### 🔧 Backend
-- Java 17
-- Spring Boot
-- Spring Security
-- JWT (JSON Web Token)
-- Spring Data JPA
-- Maven
-- PostgreSQL
-- Swagger UI
-- Docker
-- Arquitetura MVC
+| Tecnologia      | Versão  |
+|-----------------|---------|
+| Java            | 17      |
+| Spring Framework | 6.2.5   |
+| Spring Boot     | 3.4.4   |
+| Spring Security | 6.2.4   |
+| Spring Data JPA | 3.2.5   |
+| JWT             | 4.4.0   |
+| Lombok          | 1.18.36 |
+| SwaggerUI       | 2.3.0   |
+| PostgreSQL      | 42.7.5  |
 
 ### 🎨 Frontend
-- Angular
-- TypeScript
-- SCSS
-- HTML
-- JavaScript
-- Nginx (via Docker)
+| Tecnologia | Versão  |
+|------------|---------|
+| Angular    | 17.3.16 |
+| Typescript | 5.4.5   |
+| Javascript | ES2022  |
+| RxJS       | 7.8.2   |
+| Ngx-toastr | 19.0.0  |
+| Scss       | 1.71.1  |
+
+
 
 ### 💡 Outros
 - Git & GitHub
-- Docker Compose
+- Docker do frontend, backend e banco de dados
 - .env para configuração de variáveis
+- Princípios de design SOLID
+- Aplicação de CI/CD e Kubernetes (⏳ Em desenvolvimento)
 - Boas práticas de organização e escalabilidade
 
 ---
