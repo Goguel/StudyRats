@@ -13,7 +13,7 @@ export class LoginService {
   constructor(private httpClient: HttpClient) { }
 
   login(email: string, password: string) {
-    return this.httpClient.post<LoginResponse>(`${environment.apiUrl}/login`, { email, password }).pipe(
+    return this.httpClient.post<LoginResponse>(`${environment.apiUrl}/auth/login`, { email, password }).pipe(
       tap((value) => {
         sessionStorage.setItem("auth-token", value.token)
         sessionStorage.setItem("username", value.name)
@@ -21,7 +21,7 @@ export class LoginService {
     }
 
   signup(name: String, email: string, password: string) {
-    return this.httpClient.post<LoginResponse>(`${environment.apiUrl}/register`, { name, email, password }).pipe(
+    return this.httpClient.post<LoginResponse>(`${environment.apiUrl}/auth/register`, { name, email, password }).pipe(
       tap((value) => {
         sessionStorage.setItem("auth-token", value.token)
         sessionStorage.setItem("username", value.name)
