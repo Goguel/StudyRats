@@ -39,8 +39,9 @@ StudyRats é uma aplicação **fullstack** que tem como objetivo **incentivar o 
 - Git & GitHub
 - Docker do frontend, backend e banco de dados
 - .env para configuração de variáveis
-- Princípios de design SOLID
-- Aplicação de CI/CD e Kubernetes (⏳ Em desenvolvimento)
+- Princípio de design SOLID
+- Aplicação de CI/CD com GitHub Actions e Render
+- Kubernetes (⏳ Em desenvolvimento)
 - Boas práticas de organização e escalabilidade
 
 ---
