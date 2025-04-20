@@ -3,6 +3,10 @@
 StudyRats é uma aplicação **fullstack** que tem como objetivo **incentivar o estudo através da gamificação e da competição saudável**. A ideia é simples: quanto mais você estuda (+ horas, + questões certas, + conteúdo criado, etc.), mais pontos você ganha — e assim disputa com amigos, colegas de cursinho ou membros de uma comunidade. 🏆📚
 
 ---
+## 🖥️ Tela de login
+![Tela de login](assets/TelaDeLogin.png)
+
+---
 
 ## 🚀 Tecnologias e Conceitos Utilizados
 
