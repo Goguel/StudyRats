@@ -6,6 +6,7 @@ main {
     align-items: center;
     justify-content: center;
     height: 100%;
+    width: 100%;
 
     section {
         height: 100%;
@@ -18,7 +19,7 @@ main {
     .main-section {
         gap: 0.5rem;
 
-        flex-grow: 1;
+        flex-grow: 0.7;
         background-color: $gray-bg;
     }
 
@@ -34,7 +35,7 @@ main {
             font-size: 1.25rem;
             font-weight: bold;
             margin-bottom: 2.8rem;
-            
+
         }
 
         .btn-wrapper {
@@ -100,8 +101,8 @@ main {
                     background-color: $primary-color;
                     color: white;
                     box-shadow: 0 0.5rem 0.75rem rgba(100, 146, 251, 0.5);
-                }         
-                       
+                }
+
             }
         }
     }

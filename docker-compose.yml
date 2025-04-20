@@ -1,6 +1,6 @@
 services:
   frontend:
-    build: Studyrats-frontend
+    build: Studyrats_frontend
     container_name: studyrats-frontend
     restart: always
     ports:
