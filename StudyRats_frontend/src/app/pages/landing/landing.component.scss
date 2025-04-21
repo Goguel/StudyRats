@@ -1,10 +1,18 @@
 @import '../../../styles/variables.scss';
 
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 5.25rem;
+}
+
 .main-section {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+  padding: 1rem 4.25rem;
 
   span {
     font-size: 1.25rem;
@@ -18,8 +26,57 @@
   }
 }
 
+.about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 4.25rem;
+
+  gap: 4.5rem;
+
+  .about-content {
+    width: 18rem;
+    border-bottom: 0.75rem solid $secondary-color;
+    padding-bottom: 0.75rem;
+
+    h2 {
+      font-size: 3.75rem;
+      font-weight: 600;
+      background: -webkit-linear-gradient(270deg, $primary-color, $secondary-color);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+  p {
+    font-size: 2.25rem;
+    font-family: "Scada", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+
+    b {
+      background: -webkit-linear-gradient($primary-color, $secondary-color);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-style: normal;
+    }
+
+  }
+
+}
+
+.cta-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (min-width: 1080px) {
   .main-section {
     flex-direction: row
+  }
+  .about-section {
+    flex-direction: row;
   }
 }

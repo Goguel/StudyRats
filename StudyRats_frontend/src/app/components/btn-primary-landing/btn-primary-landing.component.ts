@@ -1,7 +1,7 @@
 import {Component, EventEmitter, Input, Output} from '@angular/core';
 import {CommonModule} from "@angular/common";
 
-type BtnVariants = "primary" | "secondary";
+type BtnVariants = "primary" | "secondary" | "login";
 
 @Component({
   selector: 'btn-primary-landing',

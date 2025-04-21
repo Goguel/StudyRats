@@ -20,8 +20,15 @@
 
   &.secondary {
     background: white;
-    color: $gray-bg;
+    color: $text-color;
     font-weight: bold;
     font-size: 1rem;
+  }
+
+  &.login {
+    padding: 0.75rem 1.5rem;
+    background: $primary-color;
+    color: $gray-bg;
+    font-size: 1.5rem;
   }
 }
