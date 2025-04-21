@@ -1,5 +1,7 @@
 <header class="app-header">
   <img ngSrc="assets/svg/logo.svg" width="250" height="200"/>
-  <button class="btn-login" (click)="navigate()">Login</button>
-
+  <section class="btn-wrapper">
+      <btn-primary-landing btn-text="Login" variant="login" class="login" (submit)="login()"></btn-primary-landing>
+      <btn-primary-landing btn-text="SingUp" variant="login" (submit)="singup()"></btn-primary-landing>
+  </section>
 </header>

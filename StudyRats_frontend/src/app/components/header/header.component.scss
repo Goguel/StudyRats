@@ -2,18 +2,21 @@
 
 .app-header {
   display: flex;
-  justify-content: center;
   align-items: center;
-  height: 60px;
-  padding-top: 3rem;
+  justify-content: space-around;
+  height: 100px;
+  padding-top: 0px;
 
-  .btn-login {
-    position: relative;
-    background-color: $gray-bg;
-    padding: 0.5rem 1rem 0.5rem 1rem;
-    border: none;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-    border-radius: 15px;
+  img {
+
+  }
+  .btn-wrapper {
+    display: flex;
+    gap: 1rem;
+
+    .login {
+      padding-right: 1rem;
+      border-right: 3px solid $gray-bg;
+    }
   }
 }
