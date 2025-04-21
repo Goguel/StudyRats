@@ -1,0 +1,19 @@
+@import '../../../styles/variables.scss';
+
+.app-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  padding-top: 3rem;
+
+  .btn-login {
+    position: relative;
+    background-color: $gray-bg;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    border-radius: 15px;
+  }
+}

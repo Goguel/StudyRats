@@ -1,0 +1,25 @@
+@import '../../../styles/variables.scss';
+
+.main-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  span {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: $text-color;
+  }
+
+  h1{
+    font-size: 4.5rem;
+    font-weight: 900;
+  }
+}
+
+@media (min-width: 1080px) {
+  .main-section {
+    flex-direction: row
+  }
+}
